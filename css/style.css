@@ -1,0 +1,131 @@
+body {
+  background: #333;
+  /* color: #fff;*/
+  font-family: 'Markazi Text', serif;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  /* margin-bottom: 20px; */
+  /* padding-bottom: 20px; */
+  /* opacity: 0.8; } */
+}
+
+.carousel-inner img {
+  height: 100%;
+  width:100%;
+  margin-bottom: 20px;
+
+}
+
+.modal-body label{
+  color: black;
+}
+
+.modal-header h5{
+  color: #333;
+}
+
+#card-top {
+  margin-top: 20px;
+}
+
+.card-right-margin{
+  padding: 0px;
+  margin-right: 10px;
+}
+
+/* .card-right-margin:nth-child(3){
+  margin-right: 0px
+} */
+
+/* .foot:nth-child(1){
+  margin-left: 5%;
+} */
+
+/* .foot:nth-child(2){
+  margin-left: 5%;
+} */
+
+/* .foot {
+  background-color: black;
+  color: #fff;
+} */
+.foot h2{
+  margin-left: 5%;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+
+.foot{
+  margin-top: 20px;
+}
+
+.foot a{
+  color: #fff;
+}
+
+.foot a:hover{
+  color: #008ed6;
+}
+#foot-margin {
+  margin-top: 10px;
+}
+.foot ul {
+  padding-left: 0px;
+}
+.foot li{
+  list-style-type: none;
+}
+.last {
+  margin-left: auto;
+  margin-right: auto;
+}
+.last li {
+  display: inline;
+  padding-right: 5%
+}
+
+.last a{
+  color: lemonchiffon;
+}
+#home-section {
+  background: url("../img/home.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.8; }
+  #home-section .fa {
+    color: #008ed6;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+#explore-section .fa, #share-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+#create-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
