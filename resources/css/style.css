@@ -1,7 +1,7 @@
 body {
   background: #333;
   /* color: #fff;*/
-  font-family: 'Markazi Text', serif;
+  font-family: 'Roboto', serif;
 }
 
 .navbar {
@@ -29,15 +29,6 @@ body {
 .modal-header h5{
   color: #333;
 }
-
-/* #card-top {
-  margin-top: 20px;
-} */
-
-/* .card-right-margin{
-  padding: 0px;
-  margin-right: 10px;
-} */
 
 .foot h2{
   margin-left: 5%;
@@ -82,7 +73,7 @@ footer {
   color: lemonchiffon;
 }
 
-@media (max-width:450px){
+@media (max-width: 450px){
   .three-grid .card{
     margin-top: 10px;
   }
@@ -100,6 +91,7 @@ footer {
   .events .row{
     margin-top: 10px;
   }
+
   .card2{
     margin-left: 10px;
     margin-right: 10px;

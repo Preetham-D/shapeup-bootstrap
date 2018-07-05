@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Shape Up</title>
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="vendor/css/font-awesome.min.css">
+  <link rel="stylesheet" href="vendor/css/bootstrap.css">
+  <link rel="stylesheet" href="resources/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
     <nav class="navbar navbar-expand-sm bg-white navbar-light  fixed-top">
       <div class="container">
         <a href="index.html" class="navbar-brand">
-          <img src="img/logo.jpg" alt="brand logo" style="width:50px;" /> ShapeUp</a>
+          <img src="resources/img/logo.jpg" alt="brand logo" style="width:50px;" /> ShapeUp</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -67,21 +67,21 @@
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/slide1.jpg" alt="Swim" />
+          <img src="resources/img/slide1.jpg" alt="Swim" />
           <div class="carousel-caption">
             <h3>"Willing is not enough"</h3>
             <p>Bruce Lee</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/slide2.jpg" alt="Run" />
+          <img src="resources/img/slide2.jpg" alt="Run" />
           <div class="carousel-caption">
             <h3>"If you are in Hell keep going"</h3>
             <p>Winston Churchill</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/slide3.jpg" alt="Cycle" />
+          <img src="resources/img/slide3.jpg" alt="Cycle" />
           <div class="carousel-caption">
             <h3>"Only easy day was yesterday"</h3>
             <p>Paul Nicolson</p>
@@ -111,7 +111,7 @@
         <h5 class="card-title">Are you an adventure junky ?</h5>
         <p class="card-text">Then here is your chance to participate in one of the most demanding outdoor sports event of the history. Register
           now and enjoy;</p>
-        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        <!-- <a href="#" class="btn btn-primary">Sign Up</a> -->
         <!-- Button trigger modal -->
 
         <div class="row justify-content-center">
@@ -173,29 +173,35 @@
   <section class="container mt-5 three-grid">
     <div class="row justify-content-center m-0" id="card-top">
       <div class="card col-sm-3 p-0">
-        <img class="card-img-top" src="img/swim.jpg" alt="Card image cap">
+        <img class="card-img-top" src="resources/img/swim.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Swim</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>  
+          <p class="card-text">Human beings have been swimming for millennia. According to Wikipedia, Stone Age cave drawings depict individuals
+            swimming and there are written references in the Bible and the Greek poems "The Iliad" and "The Odyssey" dating
+            back 1,500 to 2,000 years.</p>
+          <!-- <a href="#" class="btn btn-primary">Sign Up</a> -->
+        </div>
       </div>
       <!-- card 2 -->
       <div class="card col-sm-3 p-0 card2">
-        <img class="card-img-top" src="img/run.jpg" alt="Card image cap">
+        <img class="card-img-top" src="resources/img/run.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Run</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot. Running
+            is a type of gait characterized by an aerial phase in which all feet are above the ground though there are exceptions.
+            This is in contrast.</p>
+          <!-- <a href="#" class="btn btn-primary">Sign Up</a> -->
         </div>
       </div>
       <!-- card 3 -->
       <div class="card col-sm-3 p-0">
-        <img class="card-img-top" src="img/cycle.jpg" alt="Card image cap">
+        <img class="card-img-top" src="resources/img/cycle.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Cycle</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">Cycling in Alabama.webm Cycling in Alabama In many countries, the most commonly used vehicle for road transport
+            is a utility bicycle. These have frames with relaxed geometry, protecting the rider from shocks of the road and
+            easing steering at low speeds.</p>
+          <!-- <a href="#" class="btn btn-primary">Sign Up</a> -->
         </div>
       </div>
     </div>
@@ -212,39 +218,21 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="card">
+              <img class="card-img-top" src="resources/img/US.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">ShapeUp</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">United States</h5>
+                <p class="card-text">Get ready on March 3rd</p>
+                <a href="#" class="btn btn-primary">Sign Up</a>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="card">
+              <img class="card-img-top" src="resources/img/England.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">ShapeUp</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">ShapeUp</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">ShapeUp</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">England</h5>
+                <p class="card-text">Get ready on April 3rd</p>
+                <a href="#" class="btn btn-primary">Sign Up</a>
               </div>
             </div>
           </div>
@@ -252,19 +240,43 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="card">
+              <img class="card-img-top" src="resources/img/french.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">ShapeUp</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">France</h5>
+                <p class="card-text">Get ready on May 3rd</p>
+                <a href="#" class="btn btn-primary">Sign Up</a>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="card">
+              <img class="card-img-top" src="resources/img/russia.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">ShapeUp</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Russia</h5>
+                <p class="card-text">Get ready on June 3rd</p>
+                <a href="#" class="btn btn-primary">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="resources/img/india.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">India</h5>
+                <p class="card-text">Get ready on July 3rd.</p>
+                <a href="#" class="btn btn-primary">Sign Up</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="resources/img/china.jfif" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">China</h5>
+                <p class="card-text">Get ready on August 3rd</p>
+                <a href="#" class="btn btn-primary">Sign Up</a>
               </div>
             </div>
           </div>
@@ -272,7 +284,6 @@
 
       </div>
       <div class="card-footer text-muted">
-        2 days ago
       </div>
     </div>
   </section>
@@ -285,36 +296,36 @@
       </div>
       <div class="card-body">
         <div class="embed-responsive embed-responsive-16by9">
-          <!-- <iframe class="embed-responsive-item" src="video/video1.mp4" allowfullscreen></iframe> -->
-          <!-- <video src="https://www.youtube.com/embed/FgRKMRis5j8" loop></video> -->
           <iframe width="640" height="360" src="https://www.youtube.com/embed/qUHsIMhe0qQ" frameborder="0" allow="autoplay; encrypted-media"
             allowfullscreen></iframe>
         </div>
+      </div>
+      <div class="card-footer text-muted">
       </div>
     </div>
   </section>
 
   <!-- page navigation bar -->
   <section class="container">
-  <nav class="row justify-content-center mt-5">
-    <ul class="pagination">
-      <li class="page-item disabled">
-        <a href="#" class="page-link">Previous</a>
-      </li>
-      <li class="page-item active">
-        <a href="#" class="page-link">1</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">2</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">3</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">Next</a>
-      </li>
-    </ul>
-  </nav>
+    <nav class="row justify-content-center mt-5">
+      <ul class="pagination">
+        <li class="page-item disabled">
+          <a href="#" class="page-link">Previous</a>
+        </li>
+        <li class="page-item active">
+          <a href="#" class="page-link">1</a>
+        </li>
+        <li class="page-item">
+          <a href="#" class="page-link">2</a>
+        </li>
+        <li class="page-item">
+          <a href="#" class="page-link">3</a>
+        </li>
+        <li class="page-item">
+          <a href="#" class="page-link">Next</a>
+        </li>
+      </ul>
+    </nav>
   </section>
 
   <!-- footer  -->
@@ -329,7 +340,7 @@
             <h5>Contact Us</h5>
             <ul>
               <li>
-                <i class="fa fa-facebook-f"></i>
+                <i class="fa fa-facebook"></i>
                 <a href="#"> Facebook </a>
               </li>
               <li>
@@ -397,9 +408,9 @@
 
     </div>
   </footer>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="vendor/js/jquery.min.js"></script>
+  <script src="vendor/js/popper.min.js"></script>
+  <script src="vendor/js/bootstrap.min.js"></script>
 </body>
 </body>
 
