@@ -11,6 +11,10 @@ body {
   /* opacity: 0.8; } */
 }
 
+#carousel{
+  margin-top: 80px;
+}
+
 .carousel-inner img {
   height: 100%;
   width:100%;
@@ -26,31 +30,15 @@ body {
   color: #333;
 }
 
-#card-top {
+/* #card-top {
   margin-top: 20px;
-}
+} */
 
-.card-right-margin{
+/* .card-right-margin{
   padding: 0px;
   margin-right: 10px;
-}
-
-/* .card-right-margin:nth-child(3){
-  margin-right: 0px
 } */
 
-/* .foot:nth-child(1){
-  margin-left: 5%;
-} */
-
-/* .foot:nth-child(2){
-  margin-left: 5%;
-} */
-
-/* .foot {
-  background-color: black;
-  color: #fff;
-} */
 .foot h2{
   margin-left: 5%;
 }
@@ -93,39 +81,28 @@ footer {
 .last a{
   color: lemonchiffon;
 }
-#home-section {
-  background: url("../img/home.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 700px; }
-  #home-section .dark-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 700px; }
-  #home-section .home-inner {
-    padding-top: 150px; }
-  #home-section .card-form {
-    opacity: 0.8; }
-  #home-section .fa {
-    color: #008ed6;
-    background: #fff;
-    padding: 4px;
-    border-radius: 5px;
-    font-size: 30px; }
 
-#explore-section .fa, #share-section .fa {
-  color: #fff;
-  background: #333;
-  padding: 4px;
-  border-radius: 5px;
-  font-size: 30px; }
+@media (max-width:450px){
+  .three-grid .card{
+    margin-top: 10px;
+  }
+  .events .col-sm-6 .card{
+    margin-top: 10px;
+  }
+}
 
-#create-section .fa {
-  color: #008ed6;
-  background: #fff;
-  padding: 4px;
-  border-radius: 5px;
-  font-size: 30px; }
+/* @media(max-width:1900px){
+  .events .row{
+    margin-top: 10px;
+  }
+} */
+@media(min-width:700px){
+  .events .row{
+    margin-top: 10px;
+  }
+  .card2{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
