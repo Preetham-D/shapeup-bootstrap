@@ -1,14 +1,10 @@
 body {
   background: #333;
-  /* color: #fff;*/
   font-family: 'Roboto', serif;
 }
 
 .navbar {
   border-bottom: #008ed6 3px solid;
-  /* margin-bottom: 20px; */
-  /* padding-bottom: 20px; */
-  /* opacity: 0.8; } */
 }
 
 #carousel{
@@ -22,6 +18,9 @@ body {
 
 }
 
+.three-grid .card {
+  border: 0px;
+}
 .modal-body label{
   color: black;
 }
@@ -82,12 +81,7 @@ footer {
   }
 }
 
-/* @media(max-width:1900px){
-  .events .row{
-    margin-top: 10px;
-  }
-} */
-@media(min-width:700px){
+@media(min-width:500px){
   .events .row{
     margin-top: 10px;
   }
